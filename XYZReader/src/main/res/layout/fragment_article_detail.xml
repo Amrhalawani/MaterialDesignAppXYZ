@@ -21,6 +21,7 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
+                    android:scaleType="centerCrop"
                     android:layout_width="match_parent"
                     android:layout_height="400dp" />
 
@@ -52,7 +53,7 @@
                     android:paddingBottom="@dimen/detail_metabar_vert_padding"
                     android:paddingLeft="@dimen/detail_inner_horiz_margin"
                     android:paddingRight="@dimen/detail_inner_horiz_margin"
-                    android:paddingTop="@dimen/detail_metabar_vert_padding">
+                    android:paddingTop="1dp">
 
                     <TextView
                         android:id="@+id/article_title"
@@ -95,15 +96,16 @@
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="56dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="40dp"
-        android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:background="@drawable/add_fab_background"
         android:contentDescription="@string/action_share"
         android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
         app:pressedTranslationZ="@dimen/fab_press_translation_z"
+
 
         />
 

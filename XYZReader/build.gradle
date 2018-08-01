@@ -1,7 +1,10 @@
 buildscript {
     repositories {
-        mavenCentral()
+
+//        mavenCentral()
+
         google()
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'
@@ -10,16 +13,19 @@ buildscript {
 apply plugin: 'com.android.application'
 
 repositories {
-    mavenCentral()
+//    mavenCentral()
+
+    google()
+    jcenter()
 }
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 20
-        targetSdkVersion 25
+        targetSdkVersion 27
     }
 }
 
@@ -30,11 +36,14 @@ dependencies {
     implementation "com.android.support:palette-v7:$androidSupportVersion"
     implementation "com.android.support:recyclerview-v7:$androidSupportVersion"
     implementation "com.android.support:cardview-v7:$androidSupportVersion"
-    implementation 'com.squareup.okhttp3:okhttp:3.1.2'
-    implementation 'com.android.support:design:25.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.android.support:design:27.1.1'
     implementation files('libs/volley.jar')
-        implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 
 
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
 
 }

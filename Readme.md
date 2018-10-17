@@ -20,26 +20,6 @@ In this project, you will redesign an app to follow the Material Design guidelin
 - [x] Used Palette to give a romantic touch to each card.
 - [x] Much more effective show with KenBurnsView.
 
-## Screenshots
-
-## Project Overview
-In this project, you will redesign an app to follow the Material Design guidelines and translate a set of static design mocks to a living and breathing app.
-
-## What the project uses
-
-* [Glide v4](https://github.com/bumptech/glide)
-* [KenBurnsView](https://github.com/flavioarfaria/KenBurnsView)
-* [OkHttp](https://github.com/square/okhttp)
-* [Palette](https://developer.android.com/reference/android/support/v7/graphics/Palette)
-
-## ToDo List
-
-- [x] App was fully converted into to Material appearance sticking by Material Design Principles.
-- [x] Implemented SharedElement Transition between RecyclerView and Detail Activity.
-- [x] Added both Portrait and Landscape exclusive designs.
-- [x] Used Palette to give a romantic touch to each card.
-- [x] Much more effective show with KenBurnsView.
-
 
 
 ## Why this Project?

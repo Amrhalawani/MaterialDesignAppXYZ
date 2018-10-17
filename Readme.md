@@ -5,21 +5,6 @@ This repository stores the starter code for the XYZ Reader project in Udacity's 
 ## Project Overview
 In this project, you will redesign an app to follow the Material Design guidelines and translate a set of static design mocks to a living and breathing app.
 
-## What the project uses
-
-* [Glide v4](https://github.com/bumptech/glide)
-* [KenBurnsView](https://github.com/flavioarfaria/KenBurnsView)
-* [OkHttp](https://github.com/square/okhttp)
-* [Palette](https://developer.android.com/reference/android/support/v7/graphics/Palette)
-
-## ToDo List
-
-- [x] App was fully converted into to Material appearance sticking by Material Design Principles.
-- [x] Implemented SharedElement Transition between RecyclerView and Detail Activity.
-- [x] Added both Portrait and Landscape exclusive designs.
-- [x] Used Palette to give a romantic touch to each card.
-- [x] Much more effective show with KenBurnsView.
-
 
 
 ## Why this Project?
@@ -40,6 +25,25 @@ XYZ Reader: A mock RSS feed reader featuring banner photos and headlines. Downlo
 The app is currently functional, and work in most cases for most users.
 
 Your job will be to take the user feedback in the UI Review node, and implement changes that will improve the UI and make it conform to Material Design.
+
+
+## What the project uses
+
+* [Glide v4](https://github.com/bumptech/glide)
+* [KenBurnsView](https://github.com/flavioarfaria/KenBurnsView)
+* [OkHttp](https://github.com/square/okhttp)
+* [Palette](https://developer.android.com/reference/android/support/v7/graphics/Palette)
+
+
+## ToDo List
+
+- [x] App was fully converted into to Material appearance sticking by Material Design Principles.
+- [x] Implemented SharedElement Transition between RecyclerView and Detail Activity.
+- [x] Added both Portrait and Landscape exclusive designs.
+- [x] Used Palette to give a romantic touch to each card.
+- [x] Much more effective show with KenBurnsView.
+
+
 
 ## Supporting Courses
 You should have the skills you need to complete this app after completing:
